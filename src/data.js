@@ -220,5 +220,149 @@ mathal: `
 يا ما في الحبس مظاليم|Oh, how many wronged people are in prison
 اللي مالوش خير في أهله مالوش خير في حد|Who has no good for his family has none for anyone
 في الاتحاد قوة|In unity there is strength
+اللي يشوف بلاوي غيره تهون عليه بلوته|He who sees other people's troubles finds his own easier
+الفاضي يعمل قاضي|The idle man plays judge
+الشاطر يغزل برجل حمار|The skilled one can spin with a donkey's leg
+أنا وأخي على ابن عمي وأنا وابن عمي على الغريب|Me and my brother against my cousin, me and my cousin against the stranger
+العصفور في اليد خير من عشرة على الشجرة|A sparrow in the hand is better than ten on the tree
+من شب على شيء شاب عليه|Whoever grows up on something grows old on it
+كما تدين تدان|As you judge, you will be judged
+إذا هبت رياحك فاغتنمها|If your winds blow, seize them
+اضرب الحديد وهو ساخن|Strike the iron while it is hot
+رب ضارة نافعة|Perhaps a harm is a benefit
+الاعتراف بالخطأ فضيلة|Admitting a mistake is a virtue
+جاب الديب من ديله|He got the wolf by its tail
+إن كان بيتك من زجاج فلا ترمي الناس بالحجارة|If your house is made of glass, do not throw stones at people
+اللي ما يعرفش يقول عدس|He who does not know says lentils
+سبع صنايع والبخت ضايع|Seven crafts and luck is lost
+اللي يعيش ياما يشوف|He who lives will see a lot
+اللي يمشي جنب الحيط يسلم|He who walks beside the wall stays safe
+الجمل ما يشوفش حدبته|The camel does not see its own hump
+القشة التي قصمت ظهر البعير|The straw that broke the camel's back
+ضربني وبكى سبقني واشتكى|He hit me and cried, beat me to it and complained
+اللي إيده في المية مش زي اللي إيده في النار|One whose hand is in water is not like one whose hand is in fire
+`.trim().split('\n'),
+
+/* medium tier: weak letters (و ي) and hamza (written ء). The root is spelled with ء for hamza. */
+rootsM: `
+قول|قال:he said,قول:saying,مقال:article,مقولة:a saying,قائل:speaker
+بيع|باع:he sold,بيع:selling,بائع:seller,مبيعات:sales,بياع:vendor
+نوم|نام:he slept,نوم:sleep,نائم:sleeping,منام:dream,نومة:a nap
+عود|عاد:he returned,عودة:return,عائد:returning,إعادة:repeating,معاد:repeated
+زور|زار:he visited,زيارة:visit,زائر:visitor,مزار:visited place,زوار:visitors
+صوت|صوت:voice,أصوات:voices,تصويت:voting,مصوت:voter,صوتي:audio
+خوف|خاف:he feared,خوف:fear,خائف:afraid,مخيف:scary,تخويف:intimidation
+طول|طال:it grew long,طويل:tall,طول:length,أطول:longer,تطويل:lengthening
+سير|سار:he walked,سيارة:car,مسيرة:march,سير:walking,سائر:walking
+عيش|عاش:he lived,عيش:living,معيشة:livelihood,تعايش:coexistence,عايش:alive
+جوع|جاع:he starved,جوع:hunger,جائع:hungry,مجاعة:famine,تجويع:starving
+زيد|زاد:it increased,زيادة:increase,مزيد:more,زائد:plus,استزادة:asking for more
+ميل|مال:he leaned,ميل:inclination,مائل:slanted,تمايل:swaying,ميول:tendencies
+نور|نور:light,منير:luminous,أنار:he lit,إنارة:lighting,مستنير:enlightened
+لون|لون:color,ألوان:colors,تلوين:coloring,ملون:colored,تلون:changing color
+عون|عون:aid,معونة:assistance,أعان:he assisted,استعانة:seeking help,معين:helper
+سوق|سوق:market,أسواق:markets,تسويق:marketing,سائق:driver,مسوق:marketer
+ضيف|ضيف:guest,ضيافة:hospitality,أضاف:he added,إضافة:addition,مضيف:host
+قوم|قام:he stood,قيمة:value,مقام:rank,قيام:standing,تقويم:calendar
+وحد|واحد:one,وحدة:unit,اتحاد:union,توحيد:unification,وحيد:alone
+وصل|وصل:he arrived,وصول:arrival,اتصال:contact,موصل:conductor,توصيل:delivery
+وقف|وقف:he stopped,موقف:stop,وقوف:standing,توقف:halting,وقفة:pause
+وضع|وضع:he placed,موضوع:topic,موضع:place,وضعية:position,مواضع:places
+وعد|وعد:promise,موعد:appointment,ميعاد:date,وعود:promises,واعد:promising
+وجه|وجه:face,اتجاه:direction,توجيه:guidance,وجهة:destination,موجه:guided
+وفق|وفق:according to,اتفاق:agreement,موافقة:approval,توفيق:success,موفق:successful
+ولد|ولد:boy,مولود:newborn,ميلاد:birth,والد:father,ولادة:childbirth
+وطن|وطن:homeland,مواطن:citizen,وطني:national,توطين:settling,أوطان:homelands
+وسط|وسط:middle,متوسط:average,وسيط:mediator,واسطة:connection,توسط:mediating
+وزن|وزن:weight,ميزان:scale,موزون:balanced,توازن:balance,أوزان:weights
+وقت|وقت:time,أوقات:times,مؤقت:temporary,توقيت:timing,ميقات:appointed time
+بني|بنى:he built,بناء:building,مبنى:structure,بنية:framework,بان:builder
+جري|جرى:he ran,جريان:flow,مجرى:channel,جار:current,مجريات:proceedings
+رمي|رمى:he threw,رمية:a throw,مرمى:goal,رماية:archery,رام:thrower
+غني|غنى:he sang,غناء:singing,أغنية:song,مغني:singer,غني:rich
+مشي|مشى:he walked,مشي:walking,ماش:walking,ممشى:walkway,مشية:gait
+ءمن|أمان:safety,أمن:security,آمن:safe,مأمون:trustworthy,تأمين:insurance
+ءكل|أكل:eating,آكل:eater,مأكولات:foods,أكلة:a dish,مأكل:food
+ءخذ|أخذ:he took,آخذ:taking,مأخوذ:taken,اتخاذ:adopting,مؤاخذة:blaming
+سءل|سؤال:question,سائل:asker,مسؤول:responsible,مسألة:matter,تساؤل:wondering
+قرء|قراءة:reading,قارئ:reader,مقروء:readable,قراء:readers,استقراء:induction
+بدء|بداية:beginning,مبتدئ:beginner,ابتداء:starting,بادئ:starter,بدء:start
+ملء|ملء:filling,ممتلئ:full,امتلاء:fullness,مليء:full of,مملوء:filled
+هدء|هدوء:calm,هادئ:calm,تهدئة:calming,مهدئ:sedative,هدأ:he calmed
+`.trim().split('\n'),
+
+/* hard tier: doubled roots and heavy derivations */
+rootsH: `
+مدد|مد:he extended,مدة:duration,ممتد:extended,امتداد:extension,تمديد:extending
+ردد|رد:reply,ترديد:repeating,مردود:return,ارتداد:reverting,تردد:hesitation
+حبب|حب:love,محبوب:beloved,أحب:he loved,محبة:affection,تحبب:endearing
+مرر|مر:he passed,مرور:passing,ممر:passage,مرة:once,استمرار:continuation
+عدد|عدد:number,معدود:counted,تعداد:census,أعداد:numbers,عداد:meter
+شدد|شديد:intense,تشديد:tightening,أشد:stronger,مشدود:tight,اشتداد:intensifying
+ضرر|ضرر:harm,ضار:harmful,مضرة:damage,أضرار:damages,اضطرار:compulsion
+جدد|جديد:new,تجديد:renewal,مجدد:renewer,تجدد:renewing,جد:grandfather
+قلل|قليل:few,أقل:less,قلة:scarcity,تقليل:reducing,مقلل:reducer
+سرر|سر:secret,أسرار:secrets,سرور:joy,مسرور:pleased,سرير:bed
+حقق|حق:right,حقيقة:truth,تحقيق:investigation,محقق:investigator,استحقاق:entitlement
+ظلل|ظل:shadow,ظليل:shady,مظلة:umbrella,تظليل:shading,ظلال:shadows
+صفف|صف:row,صفوف:rows,مصفوفة:matrix,تصفيف:arranging,صفوة:the elite
+دلل|دليل:evidence,دلالة:significance,مدلول:meaning,دال:indicator,استدلال:inference
+رقق|رقيق:thin,رقة:delicacy,ترقيق:thinning,رقائق:flakes,مرقق:thinner
+حلل|حل:solution,تحليل:analysis,محلل:analyst,انحلال:dissolution,حلول:solutions
+ضمم|ضم:annexing,انضمام:joining,ضميمة:attachment,ضمة:a bundle,منضم:joined
+`.trim().split('\n'),
+
+/* Rawabit categories: level|theme|Arabic title|English title|words|rule (rule: has:X = every word contains X, start:X = every word starts with X) */
+raw: `
+1|food|أطباق مصرية|Egyptian dishes|كشري,فول,طعمية,ملوخية,محشي,حواوشي,مسقعة,فتة
+1|food|حلويات شرقية|Eastern sweets|كنافة,بسبوسة,قطايف,بقلاوة,أم علي,مهلبية,بسيمة,زلابية
+2|food|مشروبات باردة|Cold drinks|عرقسوس,سوبيا,تمر هندي,قصب,ليمون,شربات
+2|food|مشروبات ساخنة|Hot drinks|شاي,قهوة,ينسون,سحلب,حلبة,زنجبيل,كاكاو
+3|food|توابل|Spices|كمون,كزبرة,قرفة,هيل,شطة,زعتر,كركم,قرنفل
+1|food|فواكه|Fruits|مانجو,جوافة,رمان,عنب,برتقال,بطيخ,تين,خوخ
+1|food|خضروات|Vegetables|طماطم,خيار,باذنجان,فلفل,كوسة,جزر,بصل,بطاطس
+3|food|أدوات المطبخ|Kitchen tools|ملعقة,شوكة,سكين,طنجرة,مقلاة,غربال,مغرفة,صينية
+1|places|محافظات الصعيد|Upper Egypt governorates|أسوان,الأقصر,سوهاج,المنيا,أسيوط,قنا,بني سويف
+1|places|محافظات الدلتا|Delta governorates|الدقهلية,الغربية,الشرقية,المنوفية,البحيرة,كفر الشيخ,دمياط,القليوبية
+2|places|محافظات القناة والحدود|Canal and border governorates|بورسعيد,السويس,الإسماعيلية,مطروح,الوادي الجديد,البحر الأحمر,شمال سيناء,جنوب سيناء
+2|places|مصايف ومدن ساحلية|Coastal resorts|الغردقة,شرم الشيخ,العلمين,رأس البر,دهب,مرسى علم,الجونة,نويبع
+2|places|معالم أثرية|Landmarks|الأهرامات,الكرنك,أبو سمبل,خان الخليلي,قلعة صلاح الدين,وادي الملوك,معبد فيلة,قلعة قايتباي
+3|places|أحياء القاهرة|Cairo districts|التحرير,الزيتون,العتبة,مدينة نصر,شبرا,العباسية,الحسين,المعادي
+3|places|عواصم عربية|Arab capitals|الرياض,عمان,بيروت,الرباط,تونس,دمشق,بغداد,مسقط
+2|places|أنهار ومحيطات|Rivers and oceans|النيل,دجلة,الفرات,الأمازون,الأطلسي,الهادئ
+1|arts|نجوم الكوميديا|Comedy stars|عادل إمام,محمد هنيدي,أحمد حلمي,محمد سعد,علاء ولي الدين,أشرف عبد الباقي,هشام ماجد,أحمد مكي
+2|arts|مطربون|Singers|عمرو دياب,محمد منير,تامر حسني,أنغام,شيرين,محمد فؤاد,هاني شاكر,حميد الشاعري
+2|arts|أساطير الطرب|Legends of Arab music|أم كلثوم,عبد الحليم,فريد الأطرش,محمد عبد الوهاب,فايزة أحمد,أسمهان,ليلى مراد,وردة
+3|arts|مسلسلات خالدة|Classic TV series|ليالي الحلمية,رأفت الهجان,المال والبنون,الكبير أوي,أرابيسك,لن أعيش في جلباب أبي,ضمير أبلة حكمت,بوابة الحلواني
+2|arts|أفلام عادل إمام|Adel Imam films|اللعب مع الكبار,طيور الظلام,عمارة يعقوبيان,السفارة في العمارة,مرجان أحمد مرجان,زهايمر,حسن ومرقص,بخيت وعديلة
+2|arts|أفلام أحمد زكي|Ahmed Zaki films|البريء,حليم,أيام السادات,ناصر 56,أرض الخوف,ضد الحكومة,معالي الوزير,زوجة رجل مهم
+1|arts|آلات موسيقية|Instruments|عود,قانون,ناي,طبلة,ربابة,كمان,دف,أورج
+3|arts|فراعنة وملكات|Pharaohs and queens|رمسيس,حتشبسوت,خوفو,نفرتيتي,أخناتون,توت عنخ آمون,خفرع,منقرع
+1|life|وسائل مواصلات|Transport|مترو,ميكروباص,توك توك,تاكسي,أتوبيس,قطار,ترام,فلوكة
+2|life|مهن|Jobs|طبيب,مهندس,محامي,نجار,سباك,ميكانيكي,كهربائي,حلاق
+3|life|أثاث|Furniture|كنبة,سرير,دولاب,ترابيزة,كرسي,سجادة,ستارة,بوفيه
+2|life|ملابس|Clothes|قميص,بنطلون,جلابية,عباءة,حذاء,طاقية,فستان,جاكيت
+1|life|أفراد العائلة|Family|أب,أم,أخ,أخت,جد,جدة,عم,خال
+1|life|أجزاء الجسم|Body parts|يد,رجل,عين,أذن,أنف,فم,رأس,قلب
+2|life|حيوانات المزرعة|Farm animals|جاموسة,بقرة,حمار,خروف,ماعز,دجاجة,جمل,حصان
+3|life|قطع نقدية|Coins and change|بريزة,شلن,تعريفة,مليم,قرش,ريال,فكة,جنيه
+2|life|تقنية|Tech|هاتف,حاسوب,إنترنت,شاشة,ماوس,كاميرا,طابعة,راوتر
+3|life|مواد دراسية|School subjects|رياضيات,علوم,تاريخ,جغرافيا,إنجليزي,فيزياء,كيمياء,أحياء
+2|life|ألوان|Colors|أحمر,أخضر,أزرق,أصفر,أبيض,أسود,بنفسجي,برتقالي
+1|life|الطقس والفصول|Weather and seasons|صيف,شتاء,ربيع,خريف,خماسين,مطر,ضباب,سحاب
+1|life|أيام الأسبوع|Weekdays|السبت,الأحد,الاثنين,الثلاثاء,الأربعاء,الخميس,الجمعة
+3|life|شهور قبطية|Coptic months|توت,بابة,هاتور,كيهك,طوبة,أمشير,برمهات,برمودة
+3|life|أبراج|Zodiac signs|الثور,الجوزاء,السرطان,العذراء,العقرب,القوس,الجدي,الدلو
+3|life|على القهوة|At the coffeehouse|شيشة,طاولة,دومينو,كوتشينة,فنجان,نرد,جرنال
+2|sports|أندية مصرية|Egyptian clubs|الأهلي,الزمالك,بيراميدز,المصري,الإسماعيلي,الاتحاد,سموحة,إنبي
+2|sports|لاعبون مصريون|Egyptian footballers|صلاح,أبو تريكة,حسام حسن,الخطيب,مرموش,النني,تريزيجيه,زيزو
+1|sports|مراكز كرة القدم|Football positions|حارس,مدافع,وسط,مهاجم,جناح,ليبرو,ظهير,صانع ألعاب
+3|sports|رياضات|Sports|كرة قدم,تنس,سباحة,كرة سلة,جمباز,ملاكمة,رفع أثقال,مصارعة
+4|word|تُقرأ بالعكس كلمة أخرى|Read backwards, another word|ملح,قمر,رقم,بحر,نهر,حمل,مال,سلم|
+4|word|فيها حرف الظاء|Contains the letter ظ|ظهر,نظر,حظ,لفظ,ظلام,عظيم,غليظ,انتظار|has:ظ
+4|word|فيها حرف الذال|Contains the letter ذ|ذهب,كذب,أستاذ,لذيذ,ذكي,نذر,بذل,جذر|has:ذ
+4|word|فيها حرف الثاء|Contains the letter ث|ثلج,كثير,ثعبان,مثلث,بحث,ثمن,حديث,أثاث|has:ث
+4|word|فيها حرف الغين|Contains the letter غ|غرفة,صغير,غابة,غيم,لغة,بلغ,نغمة,فراغ|has:غ
+4|word|تبدأ بحرف الشين|Starts with the letter ش|شمس,شارع,شباك,شجرة,شعب,شهر,شاطئ,شركة|start:ش
 `.trim().split('\n')
 };
